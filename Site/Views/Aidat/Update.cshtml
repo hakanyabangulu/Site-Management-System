@@ -1,0 +1,68 @@
+﻿@model Site.Models.Aidat
+@using System.Globalization
+
+@{
+    ViewBag.Title = "Aidatı Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Layout dosyanızın yolu, sizinkine göre değişebilir
+}
+
+<h2>Aidatı Güncelle</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Aidat</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.AidatID)
+
+            <div class="form-group row">
+                @Html.LabelFor(model => model.AidatAyi, htmlAttributes: new { @class = "col-sm-2 col-form-label font-weight-bold" })
+                <div class="col-sm-10">
+                    @Html.DropDownListFor(model => model.AidatAyi, Enumerable.Range(1, 12).Select(x => new SelectListItem
+                    {
+                        Text = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(x) + " 2024",
+                        Value = x.ToString()
+                    }), "Ay Seçiniz", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.AidatAyi, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label"><i class="fas fa-coins"></i> Aidat Tutarı</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.AidatTutari, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.AidatTutari, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label"><i class="fas fa-check-circle"></i> Ödeme Durumu</label>
+                <div class="col-md-10">
+                    <select name="OdemeDurumu" id="OdemeDurumu" class="form-control">
+                        <option value="Ödenmedi" @(Model.OdemeDurumu == "Ödenmedi" ? "selected" : "")>Ödenmedi</option>
+                        <option value="Ödendi" @(Model.OdemeDurumu == "Ödendi" ? "selected" : "")>Ödendi</option>
+                    </select>
+                    @Html.ValidationMessageFor(model => model.OdemeDurumu, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Listeye Geri Dön", "Aidat", null, new { @class = "btn btn-secondary" })
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

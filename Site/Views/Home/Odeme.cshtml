@@ -1,0 +1,188 @@
+﻿@{
+    ViewBag.Title = "Ödeme Tamamlandı";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    /* Stil kısmını aynen bırakıyoruz */
+    body {
+        background-color: #f3f4f6;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .form-container {
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 40px auto;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+        color: #333;
+        font-size: 24px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+        color: #333;
+        background-color: #f9f9f9;
+        transition: border-color 0.3s;
+    }
+
+        input[type="text"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    button {
+        background: #007bff;
+        color: #fff;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+    .payment-logos {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .payment-logo {
+        margin: 0 10px;
+        height: 30px;
+    }
+
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .form-row .form-group {
+            width: 48%;
+        }
+
+    /* İşleniyor mesajı için stil */
+    .loading-message {
+        display: none;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bff;
+    }
+</style>
+
+<div class="form-container">
+    <!-- Ödeme Sistemleri Logoları -->
+    <div class="payment-logos">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" class="payment-logo" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="MasterCard" class="payment-logo" />
+        <img src="~/Resources/images.png" alt="Troy" class="payment-logo" />
+        <img src="~/Resources/1 (1).png" alt="Maestro" class="payment-logo" />
+        <img src="~/Resources/1 (4).png" alt="Rupay" class="payment-logo" />
+        <img src="~/Resources/3.png" alt="JCB" class="payment-logo" />
+        <img src="~/Resources/4.png" alt="UnionPay" class="payment-logo" />
+        <img src="~/Resources/6.png" alt="Discover" class="payment-logo" />
+    </div>
+
+    
+
+    <form id="paymentForm" method="post" action="/Home/OdemeTamamla" onsubmit="showLoadingMessage()">
+        <input type="hidden" name="AidatID" value="@Model.AidatID" />
+
+        <div class="form-group">
+            <label for="HolderName">Ad Soyad</label>
+            <input type="text" id="HolderName" name="HolderName" required />
+        </div>
+
+        <div class="form-group">
+            <label for="CardNumber">Kart Numarası</label>
+            <input type="text"
+                   id="CardNumber"
+                   name="CardNumber"
+                   required
+                   maxlength="16"
+                   pattern="^\d{16}$"
+                   title="Kart numarası 16 haneli olmalıdır."
+                   placeholder="16 haneli kart numarası"
+                   class="form-control"
+                   oninput="validateCardNumber(this)" />
+            <small class="form-text text-muted">Kart numarasını 16 haneli olarak giriniz.</small>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="ExpireMonth">Son Kullanma Tarihi (Ay)</label>
+                <input type="text" id="ExpireMonth" name="ExpireMonth" maxlength="2" required />
+            </div>
+            <div class="form-group">
+                <label for="ExpireYear">Son Kullanma Tarihi (Yıl)</label>
+                <input type="text" id="ExpireYear" name="ExpireYear" maxlength="2" required />
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button type="submit">Ödeme Yap</button>
+        </div>
+    </form>
+
+    <!-- İşleniyor mesajı -->
+    <div class="loading-message" id="loadingMessage">
+        İşleniyor...
+    </div>
+</div>
+
+<script>
+    // Kart numarası doğrulama
+    function validateCardNumber(input) {
+        const value = input.value.replace(/\D/g, '');
+        if (value.length > 16) {
+            input.setCustomValidity("Kart numarası 16 haneli olmalıdır.");
+        } else {
+            input.setCustomValidity("");
+        }
+        input.value = value;
+    }
+
+    // İşleniyor mesajını göster
+    function showLoadingMessage() {
+        // İşleniyor mesajını göster
+        document.getElementById('loadingMessage').style.display = 'block';
+
+        // 2 saniye sonra dekont ekranına yönlendir
+        setTimeout(function () {
+            window.location.href = '/Home/OdemeTamamla';  // Dekont ekranına yönlendirme
+        }, 20000);  // 2 saniye sonra
+    }
+</script>

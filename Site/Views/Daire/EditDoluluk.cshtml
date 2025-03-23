@@ -1,0 +1,134 @@
+﻿@model Site.Models.Doluluk
+
+@{
+    ViewBag.Title = "Doluluğu Düzenle";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .form-group input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+            }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #007bff;
+        }
+
+        .form-horizontal {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .form-group input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+            }
+
+        .form-group .col-md-10 {
+            padding-top: 10px;
+        }
+
+        .btn {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>@ViewBag.Title</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Doluluk</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @Html.HiddenFor(model => model.DaireID)
+
+                <div class="form-group row">
+                    @Html.LabelFor(model => model.DoluMu, "Doluluk Durumu", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownListFor(model => model.DoluMu, new List<SelectListItem>
+                        {
+                            new SelectListItem { Text = "Dolu", Value = "true" },
+                            new SelectListItem { Text = "Boş", Value = "false" }
+                        }, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.DoluMu, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                        @Html.ActionLink("Back to Details", "Details", new { id = Model.DaireID }, new { @class = "btn btn-secondary ml-2" })
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

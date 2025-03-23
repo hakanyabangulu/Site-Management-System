@@ -1,0 +1,1067 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hakan\\Desktop\\Web\\Site\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\aidat\\aidat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\aidat\\aidat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\controllers\\otoparkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\controllers\\otoparkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\controllers\\faturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\controllers\\faturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\controllers\\dairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\controllers\\dairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\controllers\\blokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\controllers\\blokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\controllers\\aidatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\controllers\\aidatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|c:\\users\\hakan\\desktop\\web\\site\\site\\resources\\ciragan_456.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\ciragan_456.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resources\\images.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\images.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resources\\1573684106_45130802_1992062747499148_7933166798894006272_o.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\1573684106_45130802_1992062747499148_7933166798894006272_o.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resources\\4.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\4.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resources\\1573684105_67650949_2422302274475191_8035721315023323136_o.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\1573684105_67650949_2422302274475191_8035721315023323136_o.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resources\\14715471-1371405402922669-4529149906839056966-o-1-1_642.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\14715471-1371405402922669-4529149906839056966-o-1-1_642.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resources\\1 (4).png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\1 (4).png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resources\\1 (1).png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resources\\1 (1).png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\dekont.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\dekont.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\daire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\daire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\aidat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\aidat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\dilek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\dilek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\adminmesaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\adminmesaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\aidat\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\aidat\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\fatura\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\fatura\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\controllers\\sakincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\controllers\\sakincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\odeme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\odeme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\odemetamamla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\odemetamamla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\daire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\daire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\bilgiler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\bilgiler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\fatura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\fatura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\y\u00F6netici.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\y\u00F6netici.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\aidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\aidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\blok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\blok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\daire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\daire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\doluluk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\doluluk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\m\u00FClkiyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\m\u00FClkiyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\otopark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\otopark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\sakin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\sakin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\fatura\\fatura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\fatura\\fatura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\home\\otopark.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\home\\otopark.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\resource1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\resource1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\aidat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\aidat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\editdoluluk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\editdoluluk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\otopark\\otopark.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\otopark\\otopark.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\otopark.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\otopark.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\daire\\fatura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\daire\\fatura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\otopark\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\otopark\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\fatura\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\fatura\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\blok\\blok.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\blok\\blok.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\fatura\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\fatura\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|C:\\Users\\hakan\\Desktop\\Web\\Site\\site\\views\\blok\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{370E0331-56C3-4064-ADC2-0D909C87BCE7}|Site\\Site.csproj|solutionrelative:site\\views\\blok\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AidatController.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\AidatController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\AidatController.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\AidatController.cs",
+              "RelativeToolTip": "Site\\Controllers\\AidatController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:13:32.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlokController.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\BlokController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\BlokController.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\BlokController.cs",
+              "RelativeToolTip": "Site\\Controllers\\BlokController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:33:23.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DaireController.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\DaireController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\DaireController.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\DaireController.cs",
+              "RelativeToolTip": "Site\\Controllers\\DaireController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAwwHMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:33:48.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FaturaController.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\FaturaController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\FaturaController.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\FaturaController.cs",
+              "RelativeToolTip": "Site\\Controllers\\FaturaController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:01:49.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OtoparkController.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\OtoparkController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\OtoparkController.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\OtoparkController.cs",
+              "RelativeToolTip": "Site\\Controllers\\OtoparkController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:32:55.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Site\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAcwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T02:19:41.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aidat.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Aidat\\Aidat.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Aidat\\Aidat.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Aidat\\Aidat.cshtml",
+              "RelativeToolTip": "Site\\Views\\Aidat\\Aidat.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:14:28.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ciragan_456.jpg - Bitmap [690x500, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\ciragan_456.jpg",
+              "RelativeDocumentMoniker": "Site\\Resources\\ciragan_456.jpg",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\ciragan_456.jpg - Bitmap [690x500, 24 bit, JPG]",
+              "RelativeToolTip": "Site\\Resources\\ciragan_456.jpg - Bitmap [690x500, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-09T13:55:00.581Z",
+              "EditorCaption": " - Bitmap [690x500, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "1573684106_45130802_1992062747499148_7933166798894006272_o.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1573684106_45130802_1992062747499148_7933166798894006272_o.jpg",
+              "RelativeDocumentMoniker": "Site\\Resources\\1573684106_45130802_1992062747499148_7933166798894006272_o.jpg",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1573684106_45130802_1992062747499148_7933166798894006272_o.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "RelativeToolTip": "Site\\Resources\\1573684106_45130802_1992062747499148_7933166798894006272_o.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-09T13:54:52.245Z",
+              "EditorCaption": " - Bitmap [600x600, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "1573684105_67650949_2422302274475191_8035721315023323136_o.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1573684105_67650949_2422302274475191_8035721315023323136_o.jpg",
+              "RelativeDocumentMoniker": "Site\\Resources\\1573684105_67650949_2422302274475191_8035721315023323136_o.jpg",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1573684105_67650949_2422302274475191_8035721315023323136_o.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "RelativeToolTip": "Site\\Resources\\1573684105_67650949_2422302274475191_8035721315023323136_o.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-09T13:54:52.964Z",
+              "EditorCaption": " - Bitmap [600x600, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "4.png - PNG [225x225, 8 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\4.png",
+              "RelativeDocumentMoniker": "Site\\Resources\\4.png",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\4.png - PNG [225x225, 8 bit, PNG]",
+              "RelativeToolTip": "Site\\Resources\\4.png - PNG [225x225, 8 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-09T13:54:53.813Z",
+              "EditorCaption": " - PNG [225x225, 8 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "images.jpeg",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\images.jpeg",
+              "RelativeDocumentMoniker": "Site\\Resources\\images.jpeg",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\images.jpeg",
+              "RelativeToolTip": "Site\\Resources\\images.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-09T13:54:59.543Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "14715471-1371405402922669-4529149906839056966-o-1-1_642.jpg - Bitmap [1408x1024, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\14715471-1371405402922669-4529149906839056966-o-1-1_642.jpg",
+              "RelativeDocumentMoniker": "Site\\Resources\\14715471-1371405402922669-4529149906839056966-o-1-1_642.jpg",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\14715471-1371405402922669-4529149906839056966-o-1-1_642.jpg - Bitmap [1408x1024, 24 bit, JPG]",
+              "RelativeToolTip": "Site\\Resources\\14715471-1371405402922669-4529149906839056966-o-1-1_642.jpg - Bitmap [1408x1024, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-09T13:54:46.517Z",
+              "EditorCaption": " - Bitmap [1408x1024, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Daire.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Daire.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Daire.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Daire.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Daire.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T11:38:24.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminMesaj.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\AdminMesaj.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\AdminMesaj.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\AdminMesaj.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\AdminMesaj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T16:24:11.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dilek.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Dilek.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Dilek.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Dilek.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Dilek.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T09:52:08.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Aidat.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Aidat.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Aidat.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Aidat.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Aidat.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:19:32.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "1 (4).png - PNG [267x189, 8 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1 (4).png",
+              "RelativeDocumentMoniker": "Site\\Resources\\1 (4).png",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1 (4).png - PNG [267x189, 8 bit, PNG]",
+              "RelativeToolTip": "Site\\Resources\\1 (4).png - PNG [267x189, 8 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-08T16:55:53.436Z",
+              "EditorCaption": " - PNG [267x189, 8 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Aidat\\Create.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Aidat\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Aidat\\Create.cshtml",
+              "RelativeToolTip": "Site\\Views\\Aidat\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:48:58.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAowNcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T14:36:30.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "1 (1).png - PNG [291x173, 8 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1 (1).png",
+              "RelativeDocumentMoniker": "Site\\Resources\\1 (1).png",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resources\\1 (1).png - PNG [291x173, 8 bit, PNG]",
+              "RelativeToolTip": "Site\\Resources\\1 (1).png - PNG [291x173, 8 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-08T16:55:54.998Z",
+              "EditorCaption": " - PNG [291x173, 8 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T09:24:26.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Create.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Fatura\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Create.cshtml",
+              "RelativeToolTip": "Site\\Views\\Fatura\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:40:52.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dekont.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Dekont.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Dekont.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Dekont.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Dekont.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAG8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T09:52:56.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Update.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\Update.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Update.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\Update.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:51:26.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SakinController.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\SakinController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\SakinController.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Controllers\\SakinController.cs",
+              "RelativeToolTip": "Site\\Controllers\\SakinController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwK8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:14:36.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\User.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\User.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\User.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\User.cshtml",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAqwCkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:09:06.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Site\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAcwBEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T05:11:01.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OdemeTamamla.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\OdemeTamamla.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\OdemeTamamla.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\OdemeTamamla.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\OdemeTamamla.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T09:13:39.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Odeme.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Odeme.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Odeme.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Odeme.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Odeme.cshtml",
+              "ViewState": "AgIAAKMAAAAAAAAAAADwv7kAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T08:32:12.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Details.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Details.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:10:27.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Bilgiler.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Bilgiler.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\Bilgiler.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Bilgiler.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\Bilgiler.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwCoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:50:06.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Daire.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Daire.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\Daire.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Daire.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\Daire.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:50:54.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Page.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Page.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Page.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Page.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Page.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T14:36:58.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Fatura.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Fatura.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Fatura.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Fatura.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Fatura.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:18:04.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Y\u00F6netici.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Y\u00F6netici.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Y\u00F6netici.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Y\u00F6netici.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Y\u00F6netici.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:07:20.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Otopark.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Otopark.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\Otopark.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Otopark.cs",
+              "RelativeToolTip": "Site\\Models\\Otopark.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:17:12.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\users.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\users.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\users.cs",
+              "RelativeToolTip": "Site\\Models\\users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:22:30.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Fatura.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Fatura.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\Fatura.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Fatura.cs",
+              "RelativeToolTip": "Site\\Models\\Fatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T08:31:09.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Sakin.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Sakin.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\Sakin.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Sakin.cs",
+              "RelativeToolTip": "Site\\Models\\Sakin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:19:12.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "M\u00FClkiyet.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\M\u00FClkiyet.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\M\u00FClkiyet.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\M\u00FClkiyet.cs",
+              "RelativeToolTip": "Site\\Models\\M\u00FClkiyet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:22:33.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Aidat.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Aidat.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\Aidat.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Aidat.cs",
+              "RelativeToolTip": "Site\\Models\\Aidat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:16:05.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Blok.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Blok.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\Blok.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Blok.cs",
+              "RelativeToolTip": "Site\\Models\\Blok.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:16:10.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Doluluk.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Doluluk.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\Doluluk.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Doluluk.cs",
+              "RelativeToolTip": "Site\\Models\\Doluluk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:22:40.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Daire.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Daire.cs",
+              "RelativeDocumentMoniker": "Site\\Models\\Daire.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Daire.cs",
+              "RelativeToolTip": "Site\\Models\\Daire.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T19:22:41.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Site\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Site\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-29T08:23:38.737Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Fatura.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Fatura.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Fatura\\Fatura.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Fatura.cshtml",
+              "RelativeToolTip": "Site\\Views\\Fatura\\Fatura.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T16:01:44.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Resource1.resx",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resource1.resx",
+              "RelativeDocumentMoniker": "Site\\Resource1.resx",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resource1.resx",
+              "RelativeToolTip": "Site\\Resource1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-12-27T16:00:13.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Site\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T09:50:23.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Otopark.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Otopark.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Home\\Otopark.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Home\\Otopark.cshtml",
+              "RelativeToolTip": "Site\\Views\\Home\\Otopark.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:19:11.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Resource1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resource1.Designer.cs",
+              "RelativeDocumentMoniker": "Site\\Resource1.Designer.cs",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Resource1.Designer.cs",
+              "RelativeToolTip": "Site\\Resource1.Designer.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAnwEEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:35:39.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Site\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:05:44.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Aidat.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Aidat.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\Aidat.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Aidat.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\Aidat.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:06:48.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EditDoluluk.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\EditDoluluk.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\EditDoluluk.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\EditDoluluk.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\EditDoluluk.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:26:57.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Fatura.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Fatura.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\Fatura.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Fatura.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\Fatura.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:02:20.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Otopark.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Otopark.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Daire\\Otopark.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Daire\\Otopark.cshtml",
+              "RelativeToolTip": "Site\\Views\\Daire\\Otopark.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:03:29.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Otopark.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Otopark\\Otopark.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Otopark\\Otopark.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Otopark\\Otopark.cshtml",
+              "RelativeToolTip": "Site\\Views\\Otopark\\Otopark.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:16:05.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Otopark\\Create.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Otopark\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Otopark\\Create.cshtml",
+              "RelativeToolTip": "Site\\Views\\Otopark\\Create.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T14:43:51.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Fatura\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Delete.cshtml",
+              "RelativeToolTip": "Site\\Views\\Fatura\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:41:28.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Update.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Fatura\\Update.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Fatura\\Update.cshtml",
+              "RelativeToolTip": "Site\\Views\\Fatura\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T02:22:48.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Blok.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Blok\\Blok.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Blok\\Blok.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Blok\\Blok.cshtml",
+              "RelativeToolTip": "Site\\Views\\Blok\\Blok.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:27:09.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Blok\\Update.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Blok\\Update.cshtml",
+              "ToolTip": "C:\\Users\\hakan\\Desktop\\Web\\Site\\Site\\Views\\Blok\\Update.cshtml",
+              "RelativeToolTip": "Site\\Views\\Blok\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T03:59:32.874Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

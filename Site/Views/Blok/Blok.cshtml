@@ -1,0 +1,44 @@
+﻿@model List<Site.Models.Blok>
+@{
+    ViewBag.Title = "Blok Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    <h1><i class="fas fa-building"></i> Blok Listesi</h1>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th><i class="fas fa-id-card"></i> Blok ID</th>
+                <th><i class="fas fa-building"></i> Blok Adı</th>
+                <th><i class="fas fa-user"></i> Yöneticinin Adı ve Soyadı</th>
+                <th><i class="fas fa-phone"></i> Yöneticinin Telefonu</th>
+                <th><i class="fas fa-edit"></i> Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var blok in Model)
+            {
+                <tr>
+                    <td>@blok.BlokID</td>
+                    <td>@blok.BlokAdi</td>
+                    <td>@blok.YoneticiAdiSoyadi</td>
+                    <td>@blok.YoneticiTelefonu</td>
+                    <td>
+                        <a href="@Url.Action("Update", "Blok", new { id = blok.BlokID })" class="btn btn-primary btn-sm">Düzenle</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .fa {
+            margin-right: 5px;
+        }
+    </style>
+}

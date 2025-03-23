@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Site.Models.Daire>
+
+@{
+    ViewBag.Title = "Daire Seçimi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center mb-4"><i class="fas fa-building"></i> Hangi Dairede İşlem Yapmak İstersiniz?</h2>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form method="get" action="/Home/Aidat" class="card p-4 shadow-sm">
+                <div class="form-group">
+                    <label for="daireID" class="font-weight-bold">Daire Seçin:</label>
+                    <select id="daireID" name="daireID" class="form-control form-control-lg" required>
+                        <option value="">Bir daire seçin</option>
+                        @foreach (var daire in Model)
+                        {
+                            <option value="@daire.DaireID">@daire.DaireID</option>
+                        }
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success btn-lg btn-block mt-4">
+                    <i class="fas fa-search"></i> Aidatları Göster
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

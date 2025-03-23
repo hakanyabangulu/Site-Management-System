@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Site.Models.Daire>
+
+@{
+    ViewBag.Title = "Daireler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    <h1><i class="fas fa-building"></i> Daireler</h1>
+    <div class="row">
+        @foreach (var daire in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-home"></i> Daire No: @daire.DaireID</h5>
+                        <p class="card-text"><i class="fas fa-building"></i> Blok ID: @daire.BlokID</p>
+                        <p class="card-text"><i class="fas fa-layer-group"></i> Kat: @daire.Kat</p>
+                        <p class="card-text"><i class="fas fa-door-open"></i> Kapı No: @daire.KapiNo</p>
+                        <p>
+                            <a href="@Url.Action("Details", "Daire", new { id = daire.DaireID })" class="btn btn-info btn-sm">
+                                <i class="fas fa-info-circle"></i> Detaylar
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .fa {
+            margin-right: 5px;
+        }
+    </style>
+}

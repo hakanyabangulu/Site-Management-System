@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+@{ 
+    ViewBag.Title = "Mesajlar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Mesajları</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Kullanıcı Mesajları</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Ad Soyad</th>
+                        <th>E-posta</th>
+                        <th>Mesaj</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ahmet Yılmaz</td>
+                        <td>ahmet.yilmaz@example.com</td>
+                        <td>Merhaba, sistem hakkında bilgi almak istiyorum.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ayşe Demir</td>
+                        <td>ayse.demir@example.com</td>
+                        <td>Site yönetimiyle ilgili bazı önerilerim var.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Barış Dürek</td>
+                        <td>barıs.durek@example.com</td>
+                        <td>Ödeme konusunda yardıma ihtiyacım var.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

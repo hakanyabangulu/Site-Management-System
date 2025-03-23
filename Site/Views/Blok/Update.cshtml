@@ -1,0 +1,97 @@
+﻿@model Site.Models.Blok
+
+@{
+    ViewBag.Title = "Update Blok";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Stil dosyası */
+        .container {
+            margin-top: 50px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+        .card-title {
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+                border-color: #545b62;
+            }
+
+        .text-danger {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Update Blok</h4>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        @using (Html.BeginForm("Update", "Blok", FormMethod.Post))
+                        {
+                            @Html.HiddenFor(model => model.BlokID)
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.YoneticiDaireID, htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.YoneticiDaireID, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Yonetici Daire ID" } })
+                                @Html.ValidationMessageFor(model => model.YoneticiDaireID, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Save</button>
+                                @Html.ActionLink("Back to List", "Blok", null, new { @class = "btn btn-secondary ml-2" })
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

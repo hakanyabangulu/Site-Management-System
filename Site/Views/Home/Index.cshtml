@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        .navbar {
+            background-color: #343a40;
+            padding: 0.5rem 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 1.25rem;
+            color: #fff;
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+        }
+
+        .jumbotron {
+            background: linear-gradient(135deg, #0056b3, #00bfff); /* Arka planı gradient ile yaptık */
+            color: #fff;
+            padding: 60px 30px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            margin-top: 50px; /* Üstten biraz boşluk ekledik */
+        }
+
+            .jumbotron h1 {
+                font-size: 48px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .jumbotron p {
+                font-size: 20px;
+                margin-bottom: 25px;
+            }
+
+
+        .feature-box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .feature-box i {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+                color: #007bff;
+            }
+
+            .feature-box h3 {
+                font-size: 1.2rem;
+                margin-bottom: 0.75rem;
+                color: #333;
+            }
+
+            .feature-box p {
+                font-size: 1rem;
+                color: #666;
+            }
+
+        .btn-primary {
+            background-color: #0056b3;
+            border-color: #0056b3;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+
+        .carousel-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-home"></i> Site Yönetim Sistemi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features"><i class="fas fa-cogs"></i> Özellikler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Login", "Home")"><i class="fas fa-sign-in-alt"></i> Giriş Yap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Resources/ciragan_456.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="Slide 1">
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h1>Sitemize Hoş Geldiniz...</h1>
+        <p>Şehrin karmaşasından uzakta, huzur dolu bir yaşam için doğru adrestesiniz. Sitemiz, modern mimarisi ve sunduğu ayrıcalıklı olanaklarla sizlere unutulmaz bir yaşam deneyimi sunmaya hazır.</p>
+        <p>Her detayı özenle düşünülmüş Çırağan Rezidans'ta güvenliğiniz ve konforunuz için gereken her şey düşünüldü. Size sadece keyfinize bakmak kalıyor!</p>
+        <p>Hayallerinizdeki yaşamı keşfetmek için bugün Çırağan Rezidans'a katılın!</p>
+    </div>
+
+    <section class="my-5">
+        <h2 class="text-center mb-4">Özellikler</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>Güvenlik</h3>
+                        <p>7/24 güvenlik kameraları ve profesyonel güvenlik ekibimizle huzurlu bir yaşam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-dumbbell"></i>
+                        <h3>Fitness Merkezi</h3>
+                        <p>Sağlıklı bir yaşam için donanımlı spor salonumuz hizmetinizde.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-parking"></i>
+                        <h3>Otopark</h3>
+                        <p>Rezidans sakinlerine özel geniş ve güvenli otopark alanı.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-swimming-pool"></i>
+                        <h3>Havuz ve Spa</h3>
+                        <p>Dinlenmek ve rahatlamak için özel tasarlanmış havuz ve spa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Doğa ile İç İçe</h3>
+                        <p>Yeşil alanlar ve peyzaj çalışmaları ile huzurlu bir ortam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-globe"></i>
+                        <h3>Çevre Dostu</h3>
+                        <p>Sürdürülebilir enerji kaynakları ve çevreye duyarlı bir yaşam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <h2 class="text-center mb-4">Bize Ulaşın.</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="contact-form" id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Ad Soyad</label>
+                        <input type="text" class="form-control" id="name" placeholder="Adınızı ve soyadınızı giriniz" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-posta</label>
+                        <input type="email" class="form-control" id="email" placeholder="E-posta adresinizi giriniz" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mesajınız</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Mesajınızı buraya yazınız" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Gönder</button>
+                </form>
+                <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+                    Mesajınız başarıyla gönderildi.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Hakkımızda</h5>
+                    <p>Sitemiz, modern yaşamın gereksinimlerini karşılayan konforlu bir yaşam alanı sunar.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>İletişim</h5>
+                    <p><i class="fas fa-phone-alt"></i> +90 123 456 78 90</p>
+                    <p><i class="fas fa-envelope"></i> info@site.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Adana, Türkiye</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hızlı Erişim</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#features" class="text-white"><i class="fas fa-cogs"></i> Özellikler</a></li>
+                        <li><a href="#contact" class="text-white"><i class="fas fa-envelope"></i> Bize Ulaşın</a></li>
+                        <li><a href="@Url.Action("Login", "Home")" class="text-white"><i class="fas fa-sign-in-alt"></i> Giriş Yap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-3">
+                <p class="mb-0">&copy; 2024 Çırağan Rezidans. Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Formun varsayılan gönderimini engelle
+            const successMessage = document.getElementById('successMessage');
+            successMessage.style.display = 'block'; // Başarı mesajını göster
+            this.reset(); // Form alanlarını sıfırla
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

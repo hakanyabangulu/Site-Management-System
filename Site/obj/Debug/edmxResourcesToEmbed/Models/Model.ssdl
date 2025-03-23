@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="site_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Aidat">
+    <Key>
+      <PropertyRef Name="AidatID" />
+    </Key>
+    <Property Name="AidatID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DaireID" Type="int" Nullable="false" />
+    <Property Name="AidatAyi" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="AidatTutari" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="OdemeDurumu" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Blok">
+    <Key>
+      <PropertyRef Name="BlokID" />
+    </Key>
+    <Property Name="BlokID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BlokAdi" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="YoneticiAdiSoyadi" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="YoneticiTelefonu" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Daire">
+    <Key>
+      <PropertyRef Name="DaireID" />
+    </Key>
+    <Property Name="DaireID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BlokID" Type="int" Nullable="false" />
+    <Property Name="Kat" Type="int" Nullable="false" />
+    <Property Name="KapiNo" Type="int" Nullable="false" />
+    <Property Name="DaireTipi" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SahipAdiSoyadi" Type="varchar" MaxLength="100" />
+    <Property Name="SahipTelefonu" Type="varchar" MaxLength="20" />
+    <Property Name="KiraciAdiSoyadi" Type="varchar" MaxLength="100" />
+    <Property Name="KiraciTelefonu" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Fatura">
+    <Key>
+      <PropertyRef Name="FaturaID" />
+    </Key>
+    <Property Name="FaturaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DaireID" Type="int" Nullable="false" />
+    <Property Name="FaturaTipi" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Ay" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Tutar" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Otopark">
+    <Key>
+      <PropertyRef Name="AracPlaka" />
+    </Key>
+    <Property Name="AracPlaka" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DaireID" Type="int" Nullable="false" />
+    <Property Name="UcretliParkYeriDurumu" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sakin">
+    <Key>
+      <PropertyRef Name="SakinID" />
+    </Key>
+    <Property Name="SakinID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DaireID" Type="int" Nullable="false" />
+    <Property Name="AdiSoyadi" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Telefon" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="20" />
+    <Property Name="password" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_Aidat_Daire">
+    <End Role="Daire" Type="Self.Daire" Multiplicity="1" />
+    <End Role="Aidat" Type="Self.Aidat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Daire">
+        <PropertyRef Name="DaireID" />
+      </Principal>
+      <Dependent Role="Aidat">
+        <PropertyRef Name="DaireID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Daire_Blok">
+    <End Role="Blok" Type="Self.Blok" Multiplicity="1" />
+    <End Role="Daire" Type="Self.Daire" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Blok">
+        <PropertyRef Name="BlokID" />
+      </Principal>
+      <Dependent Role="Daire">
+        <PropertyRef Name="BlokID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fatura_Daire">
+    <End Role="Daire" Type="Self.Daire" Multiplicity="1" />
+    <End Role="Fatura" Type="Self.Fatura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Daire">
+        <PropertyRef Name="DaireID" />
+      </Principal>
+      <Dependent Role="Fatura">
+        <PropertyRef Name="DaireID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Otopark_Daire">
+    <End Role="Daire" Type="Self.Daire" Multiplicity="1" />
+    <End Role="Otopark" Type="Self.Otopark" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Daire">
+        <PropertyRef Name="DaireID" />
+      </Principal>
+      <Dependent Role="Otopark">
+        <PropertyRef Name="DaireID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sakin_Daire">
+    <End Role="Daire" Type="Self.Daire" Multiplicity="1" />
+    <End Role="Sakin" Type="Self.Sakin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Daire">
+        <PropertyRef Name="DaireID" />
+      </Principal>
+      <Dependent Role="Sakin">
+        <PropertyRef Name="DaireID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="site_dbModelStoreContainer">
+    <EntitySet Name="Aidat" EntityType="Self.Aidat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Blok" EntityType="Self.Blok" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Daire" EntityType="Self.Daire" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Fatura" EntityType="Self.Fatura" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Otopark" EntityType="Self.Otopark" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sakin" EntityType="Self.Sakin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Aidat_Daire" Association="Self.FK_Aidat_Daire">
+      <End Role="Daire" EntitySet="Daire" />
+      <End Role="Aidat" EntitySet="Aidat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Daire_Blok" Association="Self.FK_Daire_Blok">
+      <End Role="Blok" EntitySet="Blok" />
+      <End Role="Daire" EntitySet="Daire" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fatura_Daire" Association="Self.FK_Fatura_Daire">
+      <End Role="Daire" EntitySet="Daire" />
+      <End Role="Fatura" EntitySet="Fatura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Otopark_Daire" Association="Self.FK_Otopark_Daire">
+      <End Role="Daire" EntitySet="Daire" />
+      <End Role="Otopark" EntitySet="Otopark" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sakin_Daire" Association="Self.FK_Sakin_Daire">
+      <End Role="Daire" EntitySet="Daire" />
+      <End Role="Sakin" EntitySet="Sakin" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

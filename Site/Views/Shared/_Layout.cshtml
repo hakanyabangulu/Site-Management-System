@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "Ana Sayfa";
+    ViewBag.SiteAdi = "Site";
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Site </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .navbar {
+            background-color: #343a40;
+            padding: 0.5rem 1rem; /* Padding değerlerini küçülttük */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 1.2rem; /* Yazı tipi boyutunu küçülttük */
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff;
+            margin-right: 0.3rem; /* Margin değerini küçülttük */
+            font-size: 0.85rem; /* Yazı tipi boyutunu küçülttük */
+            padding: 0.2rem 0.5rem; /* Padding değerlerini küçülttük */
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+
+            .navbar-toggler .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+            }
+
+        .navbar .form-control {
+            width: 180px; /* Arama çubuğunun genişliğini küçülttük */
+            font-size: 0.85rem; /* Yazı tipi boyutunu küçülttük */
+        }
+
+        .navbar .btn {
+            font-size: 0.85rem; /* Yazı tipi boyutunu küçülttük */
+            padding: 0.3rem 0.6rem; /* Padding değerlerini küçülttük */
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Page", "Home")">
+                <i class="fas fa-home"></i> @ViewBag.SiteAdi
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    @if (ViewBag.ShowNavbarLinks != null && (bool)ViewBag.ShowNavbarLinks)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Blok", "Blok")" style="color:antiquewhite">
+                                <i class="fas fa-th-list"></i> Blok Tablosu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Daire", "Daire")" style="color:antiquewhite">
+                                <i class="fas fa-th-list"></i> Daire Tablosu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Sakin", "Sakin")" style="color:antiquewhite">
+                                <i class="fas fa-th-list"></i> Sakin Tablosu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Aidat", "Aidat")" style="color:antiquewhite">
+                                <i class="fas fa-th-list"></i> Aidat Tablosu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Otopark", "Otopark")" style="color:antiquewhite">
+                                <i class="fas fa-th-list"></i> Otopark Tablosu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Fatura", "Fatura")" style="color:antiquewhite">
+                                <i class="fas fa-th-list"></i> Fatura Tablosu
+                            </a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Home")" style="color:antiquewhite">
+                                <i class="fas fa-sign-out-alt"></i> Log Out
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

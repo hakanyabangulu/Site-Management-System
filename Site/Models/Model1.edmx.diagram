@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2fc202b0c7ab4220969de208741340e2" Name="Diagram1">
+        <EntityTypeShape EntityType="site_dbModel.Aidat" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.Blok" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.Daire" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.Doluluk" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.Fatura" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.Mülkiyet" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.Otopark" Width="1.5" PointX="5.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.Sakin" Width="1.5" PointX="5.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="site_dbModel.users" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="site_dbModel.FK__Aidat__DaireID__52E34C9D" ManuallyRouted="false" />
+        <AssociationConnector Association="site_dbModel.FK__Daire__BlokID__4D2A7347" ManuallyRouted="false" />
+        <AssociationConnector Association="site_dbModel.FK__Doluluk__DaireID__5B78929E" ManuallyRouted="false" />
+        <AssociationConnector Association="site_dbModel.FK__Fatura__DaireID__589C25F3" ManuallyRouted="false" />
+        <AssociationConnector Association="site_dbModel.FK__Mülkiyet__DaireI__5E54FF49" ManuallyRouted="false" />
+        <AssociationConnector Association="site_dbModel.FK__Otopark__DaireID__55BFB948" ManuallyRouted="false" />
+        <AssociationConnector Association="site_dbModel.FK__Sakin__DaireID__5006DFF2" ManuallyRouted="false" />
+        <AssociationConnector Association="site_dbModel.FK_Sakin_Daire" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

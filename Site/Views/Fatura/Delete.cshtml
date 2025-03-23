@@ -1,0 +1,57 @@
+﻿@model Site.Models.Fatura
+
+@{
+    ViewBag.Title = "Fatura Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2><i class="fas fa-trash-alt"></i> Fatura Sil</h2>
+
+<div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading"><i class="fas fa-exclamation-triangle"></i> Uyarı!</h4>
+    <p>Bu faturayı silmek istediğinize emin misiniz? Bu işlem geri alınamaz.</p>
+    <hr>
+    <h5>Fatura Bilgileri</h5>
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.DaireID)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DaireID)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Ay)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Ay)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Tutar)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Tutar)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.FaturaTipi)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.FaturaTipi)
+        </dd>
+    </dl>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-actions">
+        <button type="submit" class="btn btn-danger">
+            <i class="fas fa-trash-alt"></i> Sil
+        </button>
+        @Html.ActionLink("Geri Dön", "Fatura", null, new { @class = "btn btn-secondary ml-2" })
+    </div>
+}
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+}

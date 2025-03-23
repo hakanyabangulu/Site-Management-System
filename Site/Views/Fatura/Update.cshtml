@@ -1,0 +1,65 @@
+﻿@model Site.Models.Fatura
+
+@{
+    ViewBag.Title = "Fatura Güncelleme";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2><i class="fas fa-file-invoice"></i> Fatura Güncelleme</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Fatura</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.FaturaID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FaturaTipi, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <i class="fas fa-receipt"></i>
+                @Html.EditorFor(model => model.FaturaTipi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FaturaTipi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Ay, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <i class="fas fa-calendar-alt"></i>
+                @Html.EditorFor(model => model.Ay, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Ay, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Tutar, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <i class="fas fa-dollar-sign"></i>
+                @Html.EditorFor(model => model.Tutar, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Tutar, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Kaydet
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Geri Dön", "Fatura", null, new { @class = "btn btn-secondary" })
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

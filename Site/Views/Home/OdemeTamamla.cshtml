@@ -1,0 +1,84 @@
+﻿@model Site.Models.Aidat
+
+@{
+    ViewBag.Title = "Ödeme Tamamlandı";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #f3f4f6;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .success-container {
+        background: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: #28a745;
+        font-size: 26px;
+    }
+
+    .success-icon {
+        font-size: 50px;
+        color: #28a745;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+        .info strong {
+            font-weight: bold;
+        }
+
+    .button-container {
+        margin-top: 30px;
+    }
+
+    .btn-back {
+        background: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .btn-back:hover {
+            background: #0056b3;
+        }
+</style>
+
+<div class="success-container">
+    <div class="success-icon">
+        <i class="fas fa-check-circle"></i>
+    </div>
+    <h2>Ödemeniz Başarıyla Tamamlandı!</h2>
+    <div class="info">
+        <p><strong>Daire No:</strong> @Model.DaireID</p>
+        <p><strong>Aidat Tutarı:</strong> @Model.AidatTutari.ToString("C")</p>
+        <p><strong>Aidat Ayı:</strong> @Model.AidatAyi</p>
+    </div>
+
+    <div class="button-container">
+        <a href="/Home/User" class="btn-back">Ana Sayfaya Dön</a>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

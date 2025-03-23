@@ -1,0 +1,59 @@
+﻿@model Site.Models.Aidat
+@using System.Globalization
+
+@{
+    ViewBag.Title = "Yeni Aidat Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2><i class="fas fa-plus"></i> Yeni Aidat Ekle</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Aidat Bilgileri</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group row">
+                @Html.LabelFor(model => model.AidatAyi, htmlAttributes: new { @class = "col-sm-2 col-form-label font-weight-bold" })
+                <div class="col-sm-10">
+                    @Html.DropDownListFor(model => model.AidatAyi, Enumerable.Range(1, 12).Select(x => new SelectListItem
+                    {
+                        Text = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(x) + " 2024",
+                        Value = x.ToString()
+                    }), "Ay Seçiniz", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.AidatAyi, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                @Html.LabelFor(model => model.AidatTutari, htmlAttributes: new { @class = "col-sm-2 col-form-label font-weight-bold" })
+                <div class="col-sm-10">
+                    @Html.EditorFor(model => model.AidatTutari, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.AidatTutari, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                @Html.Label("Daire ID", htmlAttributes: new { @class = "col-sm-2 col-form-label font-weight-bold" })
+                <div class="col-sm-10">
+                    @Html.TextBox("DaireID", null, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="mt-3">
+    @Html.ActionLink("Geri Dön", "Aidat", null, new { @class = "btn btn-secondary" })
+</div>

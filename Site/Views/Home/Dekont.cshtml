@@ -1,0 +1,126 @@
+﻿@model Site.Models.Aidat
+
+@{
+    ViewBag.Title = "Ödeme Dekontu";
+    
+}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 800px;
+        margin: 40px auto;
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .receipt-header {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 24px;
+        color: #007bff;
+    }
+
+    .receipt-info {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+        .receipt-info p {
+            margin: 8px 0;
+        }
+
+        .receipt-info strong {
+            color: #333;
+        }
+
+        .receipt-info .detail {
+            padding-left: 10px;
+        }
+
+    .receipt-footer {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .btn-return {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 20px;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+
+        .btn-return:hover {
+            background-color: #218838;
+        }
+
+    .line {
+        border-top: 2px solid #eeeeee;
+        margin: 20px 0;
+    }
+
+    .receipt-summary {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-top: 2px solid #eeeeee;
+    }
+
+        .receipt-summary p {
+            margin: 0;
+        }
+
+        .receipt-summary .total {
+            font-weight: bold;
+            color: #007bff;
+        }
+</style>
+
+<div class="container">
+    <div class="receipt-header">
+        <h2>Ödeme Dekontu</h2>
+        <p><strong>Ödeme Başarılı</strong></p>
+    </div>
+
+    <div class="receipt-info">
+        <p><strong>Daire No:</strong> @Model.DaireID</p>
+        <p><strong>Aidat Tutarı:</strong> @Model.AidatTutari.ToString("C")</p>
+        <p><strong>Aidat Ayı:</strong> @Model.AidatAyi</p>
+        <p><strong>Ödeme Durumu:</strong> @Model.OdemeDurumu</p>
+
+        <div class="line"></div>
+
+        <div>
+            <p><strong>Ad Soyad:</strong> @ViewBag.HolderName</p>
+            <p><strong>Kart Numarası:</strong> **** **** **** @ViewBag.CardNumber</p>
+            <p><strong>Son Kullanma Tarihi:</strong> @ViewBag.ExpireMonth/@ViewBag.ExpireYear</p>
+           
+        </div>
+    </div>
+
+    <div class="receipt-summary">
+        <p><strong>Toplam Tutar:</strong></p>
+        <p class="total">@Model.AidatTutari.ToString("C")</p>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="receipt-footer">
+        <button class="btn-return" onclick="window.location.href='@Url.Action("User", "Home")'">Anasayfaya Dön</button>
+    </div>
+</div>

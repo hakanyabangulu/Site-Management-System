@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="site_dbModelStoreContainer" CdmEntityContainer="site_dbEntities4">
+    <EntitySetMapping Name="Aidat">
+      <EntityTypeMapping TypeName="site_dbModel.Aidat">
+        <MappingFragment StoreEntitySet="Aidat">
+          <ScalarProperty Name="AidatID" ColumnName="AidatID" />
+          <ScalarProperty Name="DaireID" ColumnName="DaireID" />
+          <ScalarProperty Name="AidatAyi" ColumnName="AidatAyi" />
+          <ScalarProperty Name="AidatTutari" ColumnName="AidatTutari" />
+          <ScalarProperty Name="OdemeDurumu" ColumnName="OdemeDurumu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blok">
+      <EntityTypeMapping TypeName="site_dbModel.Blok">
+        <MappingFragment StoreEntitySet="Blok">
+          <ScalarProperty Name="BlokID" ColumnName="BlokID" />
+          <ScalarProperty Name="BlokAdi" ColumnName="BlokAdi" />
+          <ScalarProperty Name="YoneticiAdiSoyadi" ColumnName="YoneticiAdiSoyadi" />
+          <ScalarProperty Name="YoneticiTelefonu" ColumnName="YoneticiTelefonu" />
+          <ScalarProperty Name="YoneticiDaireID" ColumnName="YoneticiDaireID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Daire">
+      <EntityTypeMapping TypeName="site_dbModel.Daire">
+        <MappingFragment StoreEntitySet="Daire">
+          <ScalarProperty Name="DaireID" ColumnName="DaireID" />
+          <ScalarProperty Name="BlokID" ColumnName="BlokID" />
+          <ScalarProperty Name="Kat" ColumnName="Kat" />
+          <ScalarProperty Name="KapiNo" ColumnName="KapiNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Doluluk">
+      <EntityTypeMapping TypeName="site_dbModel.Doluluk">
+        <MappingFragment StoreEntitySet="Doluluk">
+          <ScalarProperty Name="DolulukID" ColumnName="DolulukID" />
+          <ScalarProperty Name="DaireID" ColumnName="DaireID" />
+          <ScalarProperty Name="DoluMu" ColumnName="DoluMu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fatura">
+      <EntityTypeMapping TypeName="site_dbModel.Fatura">
+        <MappingFragment StoreEntitySet="Fatura">
+          <ScalarProperty Name="FaturaID" ColumnName="FaturaID" />
+          <ScalarProperty Name="DaireID" ColumnName="DaireID" />
+          <ScalarProperty Name="FaturaTipi" ColumnName="FaturaTipi" />
+          <ScalarProperty Name="Ay" ColumnName="Ay" />
+          <ScalarProperty Name="Tutar" ColumnName="Tutar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mülkiyet">
+      <EntityTypeMapping TypeName="site_dbModel.Mülkiyet">
+        <MappingFragment StoreEntitySet="Mülkiyet">
+          <ScalarProperty Name="MülkiyetID" ColumnName="MülkiyetID" />
+          <ScalarProperty Name="DaireID" ColumnName="DaireID" />
+          <ScalarProperty Name="AdiSoyadi" ColumnName="AdiSoyadi" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="DaireTipi" ColumnName="DaireTipi" />
+          <ScalarProperty Name="KisiSayisi" ColumnName="KisiSayisi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otopark">
+      <EntityTypeMapping TypeName="site_dbModel.Otopark">
+        <MappingFragment StoreEntitySet="Otopark">
+          <ScalarProperty Name="OtoparkID" ColumnName="OtoparkID" />
+          <ScalarProperty Name="DaireID" ColumnName="DaireID" />
+          <ScalarProperty Name="Plaka" ColumnName="Plaka" />
+          <ScalarProperty Name="UcretliParkYeriTutari" ColumnName="UcretliParkYeriTutari" />
+          <ScalarProperty Name="AracSayisi" ColumnName="AracSayisi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sakin">
+      <EntityTypeMapping TypeName="site_dbModel.Sakin">
+        <MappingFragment StoreEntitySet="Sakin">
+          <ScalarProperty Name="SakinID" ColumnName="SakinID" />
+          <ScalarProperty Name="DaireID" ColumnName="DaireID" />
+          <ScalarProperty Name="AdiSoyadi" ColumnName="AdiSoyadi" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="site_dbModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
