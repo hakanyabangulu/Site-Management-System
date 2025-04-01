@@ -45,8 +45,10 @@ Usage
 
     Administrators: Add new announcements, manage debts, and edit user information.
 
-At the begenning    
+First screen when it works:
 
-![Ekran görüntüsü 2025-04-01 143452](https://github.com/user-attachments/assets/1be92964-831a-4319-9023-6ce198285039)
+![Ekran görüntüsü 2025-04-01 143452](https://github.com/user-attachments/assets/5af4527e-10b0-419a-a8d6-a6a77a6e6093)
+
+
 
 
