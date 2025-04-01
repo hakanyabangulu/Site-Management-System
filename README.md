@@ -33,19 +33,14 @@ Installation
 
 Clone the project:
 
-    git clone https://github.com/user/site-management-system.git
-    cd site-management-system
+    git clone https://github.com/hakanyabangulu/Site-Management-System.git
+    cd Site-Management-System
 
-    Create the database:
+Create the database:
 
     Create a database on SQL Server.
 
     Update the database connection details in the appsettings.json file.
-
-Install dependencies and run the project:
-
-    dotnet restore
-    dotnet run
 
 Usage
 
