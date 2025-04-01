@@ -43,6 +43,10 @@ Usage
 
     Users: Log in to view and pay debts.
 
-    Administrators: Add new announcements, manage debts, and edit user information.!
-    Ekran görüntüsü 2025-04-01 143452](https://github.com/user-attachments/assets/0daf2563-1e2a-4ccf-9ff9-5a80cc0d4c05)
+    Administrators: Add new announcements, manage debts, and edit user information.
+
+At the begenning    
+
+![Ekran görüntüsü 2025-04-01 143452](https://github.com/user-attachments/assets/1be92964-831a-4319-9023-6ce198285039)
+
 
