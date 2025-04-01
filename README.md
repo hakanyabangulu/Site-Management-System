@@ -1,8 +1,5 @@
 # Site-Management-System
 
-Site Management System
-
-
     This project is a system that digitizes apartment and site management processes. Users can view and pay their debts, while administrators can track fees, share announcements, and manage users.
     
     Features
